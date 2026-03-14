@@ -1,0 +1,162 @@
+body{
+margin:0;
+height:100%;
+font-family:Arial;
+background:linear-gradient(180deg,#0b132b,#1c2541);
+color:white;
+display:flex;
+justify-content:center;
+padding-bottom:80px;
+}
+
+.app{
+width:360px;
+padding:20px;
+}
+
+header h1{
+color:#ff6b6b;
+margin-bottom:5px;
+}
+
+header p{
+color:#aaa;
+}
+
+.card{
+margin-top:20px;
+background:rgba(255,255,255,0.05);
+padding:25px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/*.circle{
+width:220px;
+height:220px;
+border-radius:50%;
+border:10px solid #ff6b6b;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+margin:20px auto;
+}*/
+
+.circle{
+width:220px;
+height:220px;
+border-radius:50%;
+background:conic-gradient(
+#ff6b6b 0deg,
+#ff6b6b 0deg,
+rgba(255,255,255,0.1) 0deg
+);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+margin:20px auto;
+
+}
+
+#time{
+font-size:48px;
+font-weight:bold;
+}
+
+#startBtn{
+background:#ff6b6b;
+border:none;
+padding:14px 32px;
+border-radius:30px;
+font-size:16px;
+cursor:pointer;
+align-items:center;
+justify-content:center;
+display:flex;
+height:50px;
+color: white;
+}
+
+.modes{
+margin-top:20px;
+}
+
+.modes button{
+background:rgba(255,255,255,0.1);
+border:none;
+color:white;
+padding:10px 18px;
+border-radius:20px;
+margin:5px;
+cursor:pointer;
+}
+
+/*.bottom-nav{
+position: fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#131625;
+display:flex;
+justify-content:space-around;
+padding:10px 0;
+}
+
+.bottom-nav button{
+background:none;
+border:none;
+color:white;
+display:flex;
+flex-direction:column;
+align-items:center;
+font-size:11px;
+}
+
+.bottom-nav i{
+font-size:18px;
+margin-bottom:4px;
+}*/
+
+.buttons{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:12px;
+margin-top:10px;
+}
+
+#pauseBtn{
+background:#116767fb;
+border:none;
+padding:14px 32px;
+border-radius:30px;
+color:white;
+font-size:16px;
+height:50px;
+cursor:pointer;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+#voiceBtn{
+margin-top:20px;
+background:#116767fb;
+border:none;
+padding:12px 30px;
+border-radius:30px;
+color:white;
+font-size:16px;
+cursor:pointer;
+
+}
+
+#voiceStatus{
+font-size:12px;
+color:#aaa;
+margin-top:8px;
+
+}

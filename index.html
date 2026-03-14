@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StudyMate AI</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+
+<h1>StudyMate AI</h1>
+<p>Stay focused, stay sharp.</p>
+
+</header>
+
+
+<div class="card">
+
+<h3>FOCUS SESSION</h3>
+
+<div class="circle">
+
+<div id="time">25:00</div>
+
+<p>Study Session time</p>
+
+</div>
+
+<div class="buttons">
+<button id="startBtn">Start</button>
+<button id="pauseBtn">Pause</button>
+</div>
+
+<div class="modes">
+
+<button onclick="setTime(1500)">25 min</button>
+<button onclick="setTime(300)">5 min</button>
+<button onclick="setTime(900)">15 min</button>
+
+</div>
+ 
+ <button id="voiceBtn">🎤 Voice Command</button>
+<p id="voiceStatus">Tap the mic and speak</p>
+ 
+</div>
+
+
+<!--  <nav class="bottom-nav">
+
+<button><i class="fa fa-clock"></i><span>Timer</span></button>
+
+<button><i class="fa fa-list"></i><span>Tasks</span></button>
+
+<button><i class="fa fa-chart-line"></i><span>Progress</span></button>
+
+<button><i class="fa fa-microphone"></i><span>Voice</span></button>
+
+</nav> -->
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html> 

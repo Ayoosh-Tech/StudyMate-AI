@@ -65,7 +65,7 @@ Here are some features that could make this app even more powerful:
 
 ## 📸 Screenshots
 
-<img src="./Screenshot.jpg" width="700" height="900"/>
+<img src="./Screenshot.jpg" width="600"/>
 
 ---
 
